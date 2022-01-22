@@ -10,10 +10,10 @@ export default {
       const makeRenderer = TableRenderer.makeRenderer
       return {
         Table: makeRenderer({ name: 'vue-table' }),
-        'Table Heatmap': makeRenderer({ heatmapMode: 'full', name: 'vue-table-heatmap' }),
-        'Table Col Heatmap': makeRenderer({ heatmapMode: 'col', name: 'vue-table-col-heatmap' }),
-        'Table Row Heatmap': makeRenderer({ heatmapMode: 'row', name: 'vue-table-col-heatmap' }),
-        'Export Table TSV': TableRenderer.TSVExportRenderer
+        '表热度图': makeRenderer({ heatmapMode: 'full', name: 'vue-table-heatmap' }),
+        '列热度图': makeRenderer({ heatmapMode: 'col', name: 'vue-table-col-heatmap' }),
+        '行热度图': makeRenderer({ heatmapMode: 'row', name: 'vue-table-col-heatmap' }),
+        '到处TSV': TableRenderer.TSVExportRenderer
       }
     },
     rendererItems () {
