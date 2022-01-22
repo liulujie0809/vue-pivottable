@@ -1,6 +1,6 @@
 {
-  "name": "vue-pivottable",
-  "version": "0.3.98",
+  "name": "vue-pivottable-chinese",
+  "version": "0.1.00",
   "main": "src/index.js",
   "files": [
     "dist",
