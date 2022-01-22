@@ -163,7 +163,7 @@ export default {
   'Grouped Column Chart': makeRenderer({ name: 'vue-grouped-column-chart' }, { type: 'bar' }, { barmode: 'group' }),
   'Stacked Column Chart': makeRenderer({ name: 'vue-stacked-column-chart' }, { type: 'bar' }, { barmode: 'relative' }),
   'Grouped Bar Chart': makeRenderer({ name: 'groupd-bar-chart' }, { type: 'bar', orientation: 'h' }, { barmode: 'group' }, true),
-  'Stacked Bar Chart': makeRenderer({ name: 'vue-stacked-bar-chart' }, { type: 'bar', orientation: 'h' }, { barmode: 'relative' }, true),
+  '堆叠柱状图': makeRenderer({ name: 'vue-stacked-bar-chart' }, { type: 'bar', orientation: 'h' }, { barmode: 'relative' }, true),
   '线图': makeRenderer({ name: 'vue-line-chart' }),
   '点图': makeRenderer({ name: 'vue-dot-chart' }, { mode: 'markers' }, {}, true),
   '面积图': makeRenderer({ name: 'vue-area-chart' }, { stackgroup: 1 }),
